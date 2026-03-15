@@ -63,7 +63,7 @@ export default function Sidebar() {
         href="/"
       >
         <Image
-          src="/images/A.png"
+          src="/images/A_Sidebar.png"
           alt="logo"
           width={55}
           height={55}
