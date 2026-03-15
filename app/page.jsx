@@ -9,7 +9,7 @@ import StarField from "@/components/Starfield";
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = "  Arman Gasparyan,".split("");
+  const nameArray = " Arman Gasparyan,".split("");
   const jobArray = "Software Engineer.".split("");
 
   useEffect(() => {
@@ -33,18 +33,7 @@ export default function Home() {
         >
           <div className="flex items-center">
             <span className={`${letterClass} _11`}>I</span>
-            <span className={`${letterClass} _12`}>&apos;m</span> {/*<Image*/}
-            {/*  src="/images/A_Home.png"*/}
-            {/*  alt="A"*/}
-            {/*  width={80}*/}
-            {/*  height={80}*/}
-            {/*  className="inline-block !w-[120px] h-auto mx-[3px] mb-[10px]"*/}
-            {/*  style={{*/}
-            {/*    animation: "rotateIn 1s linear both",*/}
-            {/*    animationDelay: "0.6s",*/}
-            {/*    opacity: 0,*/}
-            {/*  }}*/}
-            {/*/>*/}
+            <span className={`${letterClass} _12`}>&apos;m</span>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -82,7 +71,14 @@ export default function Home() {
         </Link>
       </section>
 
-      <div className="w-[450px] h-[450px] mr-[10%]">
+      <div
+        className="w-[450px] h-[450px] mr-[10%]"
+        style={{
+          animation: "fadeIn 1s forwards",
+          animationDelay: "1s",
+          opacity: 0,
+        }}
+      >
         <StarField />
       </div>
     </div>
