@@ -44,7 +44,7 @@ export default function Home() {
                     className="text-[#4d4d4e] text-sm tracking-widest uppercase"
                     style={{animation: "fadeIn 1s forwards", animationDelay: "1.8s", opacity: 0}}
                 >
-                    Computer Science & Mathematics at Nova Southeastern University, 2026
+                    Computer Science & Mathematics Graduate, Nova Southeastern University
                 </p>
                 <Link
                     href="/contact"
