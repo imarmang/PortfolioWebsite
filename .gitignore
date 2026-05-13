@@ -45,6 +45,3 @@ portfolio-website.iml
 .idea/
 
 package-lock.json
-eslint.config.mjs
-jsconfig.json
-next.config.mjs
