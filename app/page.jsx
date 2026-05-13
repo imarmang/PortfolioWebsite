@@ -48,7 +48,7 @@ export default function Home() {
                 </p>
                 <Link
                     href="/contact"
-                    className="mt-2 w-fit border border-[#c0c0c0] text-[#c0c0c0] px-8 py-3 text-sm tracking-widest uppercase hover:bg-[#c0c0c0] hover:text-[#0d0d0d] transition-all duration-300 max-[1000px]:block max-[1000px]:w-fit whitespace-nowrap"
+                    className="mt-2 inline-block w-fit border border-[#c0c0c0] text-[#c0c0c0] px-8 py-3 text-sm tracking-widest uppercase hover:bg-[#c0c0c0] hover:text-[#0d0d0d] transition-all duration-300 whitespace-nowrap"
                     style={{animation: "fadeIn 1s forwards", animationDelay: "2s", opacity: 0}}
                 >
                     Contact Me
