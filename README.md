@@ -4,6 +4,8 @@ Welcome to my coding portfolio! This web application is built using Next.js with
 skills, projects, and experience as a software engineer. You can check it
 out [here!](https://arman-gasparyan.vercel.app/)
 
+![Portfolio Preview](/public/images/preview.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)

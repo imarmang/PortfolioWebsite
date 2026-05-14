@@ -39,6 +39,7 @@ export default function Sidebar() {
                         alt="logo"
                         width={55}
                         height={55}
+                        loading="eager"
                     />
                     <span className="sidebar-logo-name">Arman G.</span>
                 </Link>
