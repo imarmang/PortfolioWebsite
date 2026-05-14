@@ -7,19 +7,26 @@ import "./portfolio.css";
 
 const projects = [
     {
-        cover: "/images/transfera.png",
+        cover: "/images/portfolio/transfera.png",
         title: "Transfera",
         description: "React Native · Spring Boot · PostgreSQL · AWS",
         github: "https://github.com/imarmang/Transfera",
         demo: null,
     },
     {
-        cover: "/images/neuro-snake.png",
+        cover: "/images/portfolio/neuro_snake.png",
         title: "Neuro Snake",
-        description: "Python · PyTorch · Deep Q-Network · Pygame",
+        description: "Python · PyTorch · Pygame",
         github: "https://github.com/imarmang/Neuro_Snake",
         demo: null,
     },
+    {
+        cover: "/images/portfolio/navigate.png",
+        title: "N.A.V.I.G.A.T.E.",
+        description: "React · Flask · PostgreSQL",
+        github: "https://github.com/imarmang/NAVIGATE",
+        demo: null
+    }
 ];
 
 export default function Projects() {
@@ -61,7 +68,7 @@ export default function Projects() {
                             <h4 className="card-description">{project.description}</h4>
                             <div className="card-buttons">
                                 <a href={project.github} target="_blank" rel="noreferrer" className="card-btn">
-                                    GitHub
+                                    View
                                 </a>
                                 {project.demo && (
                                     <a href={project.demo} target="_blank" rel="noreferrer" className="card-btn">
