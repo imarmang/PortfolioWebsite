@@ -43,3 +43,5 @@ next-env.d.ts
 
 portfolio-website.iml
 .idea/
+
+package-lock.json
