@@ -59,6 +59,7 @@ export default function Projects() {
                         <Image
                             src={project.cover}
                             alt={project.title}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             fill
                             className="portfolio-image"
                             style={{objectFit: "cover"}}

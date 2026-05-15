@@ -1,0 +1,115 @@
+.about-page {
+    margin-left: 75px;
+    min-height: 100vh;
+    background-color: #0d0d0d;
+    padding: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.about-left {
+    flex: 0 0 40%;
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 12px;
+}
+
+.about-bio {
+    color: #c0c0c0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    margin-bottom: 32px;
+}
+
+.about-section-title {
+    color: #c0c0c0;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 8px;
+}
+
+.about-awards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-awards li {
+    color: #c0c0c0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.about-placeholder {
+    color: #4d4d4e;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    border: 1px solid #c0c0c0;
+    color: #c0c0c0;
+    padding: 6px 16px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-tag:hover {
+    background-color: #c0c0c0;
+    color: #0d0d0d;
+}
+
+.about-resume-btn {
+    display: inline-block;
+    border: 1px solid #c0c0c0;
+    color: #c0c0c0;
+    padding: 12px 32px;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+.about-resume-btn:hover {
+    background-color: #c0c0c0;
+    color: #0d0d0d;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-page {
+        margin-left: 0;
+        margin-top: 60px;
+        flex-direction: column;
+        padding: 40px 24px;
+    }
+
+    .about-left {
+        flex: none;
+        width: 100%;
+    }
+}

@@ -4,15 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import {
-    faBars,
-    faClose,
-    faEnvelope,
-    faFolderOpen,
-    faHome,
-    faSuitcase,
-    faUser,
-} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faClose, faEnvelope, faFolderOpen, faHome, faUser,} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import {usePathname} from "next/navigation";
 import "./sidebar.css";
@@ -20,7 +12,6 @@ import "./sidebar.css";
 const navLinks = [
     {href: "/", icon: faHome, label: "HOME"},
     {href: "/about", icon: faUser, label: "ABOUT"},
-    {href: "/work", icon: faSuitcase, label: "WORK"},
     {href: "/projects", icon: faFolderOpen, label: "PORTFOLIO"},
     {href: "/contact", icon: faEnvelope, label: "CONTACT"},
 ];
