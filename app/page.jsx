@@ -18,11 +18,11 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="ml-[75px] min-h-screen bg-[#0d0d0d] relative max-[1000px]:ml-0 max-[1000px]:mt-[60px]">
+        <div className="ml-[75px] min-h-screen bg-[#0d0d0d] relative max-[1000px]:ml-0 max-[1000px]:mt-[60px] p-[40px]">
 
             {/* Text zone */}
             <section className="
-  absolute left-[10%] top-1/2 -translate-y-1/2 w-[50%] max-h-[90%] flex flex-col gap-6
+  absolute top-1/2 -translate-y-1/2 w-[50%] max-h-[90%] flex flex-col gap-6
   max-[1000px]:static max-[1000px]:w-full max-[1000px]:-translate-y-0 max-[1000px]:p-[10px]
 ">
                 <h1 className="text-[#c0c0c0] font-bold home-title">
