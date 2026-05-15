@@ -51,3 +51,22 @@ ul {
         font-size: 26px;
     }
 }
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 75px;
+    color: #4d4d4e;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 12px 16px;
+    z-index: 10;
+}
+
+@media (max-width: 1000px) {
+    .copyright {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
