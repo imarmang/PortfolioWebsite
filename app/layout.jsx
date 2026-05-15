@@ -21,6 +21,7 @@ export default function RootLayout({children}) {
         <Sidebar/>
         <main className="main-content">{children}</main>
         <Analytics/>
+        <p className="copyright">© 2026 Arman Gasparyan</p>
         </body>
         </html>
     );

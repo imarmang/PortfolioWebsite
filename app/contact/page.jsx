@@ -26,7 +26,12 @@ export default function Contact() {
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
                 refForm.current,
-                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+                {
+                    publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+                    templateParams: {
+                        time_sent: new Date().toLocaleString(),
+                    }
+                }
             )
             .then(
                 () => {
