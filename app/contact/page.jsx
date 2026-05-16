@@ -91,6 +91,7 @@ export default function Contact() {
                             >
                                 <input type="text" name="from_name" placeholder="Name" required/>
                                 <input type="email" name="user_email" placeholder="Email" required/>
+                                <input type="hidden" name="time_sent" value={new Date().toLocaleString()}/>
                             </div>
                             <input
                                 type="text"
